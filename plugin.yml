@@ -1,0 +1,15 @@
+name: Mvyyq-Plugins
+author: Mvyyq
+version: 1.0.0
+api: [4.0.0-4.12.2]
+main: Mvyyq\Spawn\Main
+
+commands:
+  spawn:
+    usage: /spawn
+    description: Teleport to spawn.
+    permission: spawn.tp
+
+permissions:
+  spawn.tp:
+    default: true
