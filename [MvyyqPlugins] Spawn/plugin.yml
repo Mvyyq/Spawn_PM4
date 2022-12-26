@@ -1,0 +1,15 @@
+name: Mvyyq-Spawn
+author: Mvyyq
+version: 1.0.0
+api: 4.12.2
+main: Mvyyq\Spawn\Main
+
+commands:
+  spawn:
+    usage: /spawn
+    description: Teleport yourself to the world spawn point.
+    permission: spawn.tp
+
+permissions:
+  spawn.tp:
+    default: true
